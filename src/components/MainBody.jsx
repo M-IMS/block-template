@@ -12,7 +12,7 @@ import img_9 from "../assets/img_9.jpg";
 
 const MainBody = () => {
   return (
-    <div className="w-full sm:pl-[14%]">
+    <div className="w-full sm:pl-[16%]">
       {/* Top section */}
       <div className="flex">
         <img src={img_1} alt="" className="w-[65%] sm:w-[70%]" />
