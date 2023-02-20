@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="hidden sm:block sm:w-1/6 border border-red-400 text-6xl font-extrabold text-purple-300 text-center py-20">
+    <div className="bg-green-100 hidden sm:block fixed w-[16%] h-[200%]">
       Nav Laft side
     </div>
   );
