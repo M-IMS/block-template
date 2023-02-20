@@ -6,10 +6,10 @@ const Nav = () => {
       <div className="w-full h-[10%] py-20 border-b-2">
         <h1 className="text-5xl font-bold text-emerald-400">LOGO</h1>
       </div>
-      <ul className="text-sm font-normal flex flex-col gap-4 border-b-2 w-full py-5">
+      <ul className="text-sm font-normal text-stone-600 flex flex-col gap-4 border-b-2 w-full py-5">
         <li className="cursor-pointer">ABOUT US</li>
         <li className="cursor-pointer">BUSINESS</li>
-        <li className="cursor-pointer">SUPPORTION INDUSTRIES</li>
+        <li className="cursor-pointer">SUPPORTING INDUSTRIES</li>
         <li className="cursor-pointer">SUSTAINABILITY</li>
         <li className="cursor-pointer">CAREERS</li>
         <li className="cursor-pointer">BULLETIN</li>
