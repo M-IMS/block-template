@@ -1,5 +1,12 @@
 import React from "react";
 
+import img_1 from "../../assets/img_1.jpg";
+import img_2 from "../../assets/img_2.png";
+import img_3 from "../../assets/img_3.png";
+import img_4 from "../../assets/img_4.jpg";
+import img_5 from "../../assets/img_5.jpg";
+import img_6 from "../../assets/img_6.jpg";
+
 const Home = () => {
   return (
     <div className="">
@@ -7,8 +14,8 @@ const Home = () => {
       <div className="flex sm:h-screen">
         <div className="w-[65%] sm:w-[70%] relative">
           <div className="bg-black/30 absolute top-0 left-0 w-full h-full text-center flex flex-col justify-center items-center gap-4 sm:gap-6">
-            <p className="sm:text-xl font-semibold text-stone-600">Sub-Title</p>
-            <h1 className="sm:text-5xl font-extrabold text-stone-600 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
+            <p className="sm:text-xl font-semibold text-stone-200">Sub-Title</p>
+            <h1 className="sm:text-5xl font-extrabold text-stone-200 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
               - Title -
             </h1>
             <button className="sm:text-2xl font-extrabold text-white sm:w-fit sm:h-fit p-3 bg-emerald-600">
@@ -16,7 +23,7 @@ const Home = () => {
             </button>
           </div>
           <img
-            src={"https://source.unsplash.com/random/400x400/?solid,color"}
+            src={img_1}
             alt=""
             className="h-[100%] sm:w-full sm:h-screen object-cover"
           />
@@ -24,11 +31,7 @@ const Home = () => {
         <div className="w-[35%]">
           <div className="relative h-[50%]">
             <div className="bg-black/30 absolute top-0 left-0 w-full h-full" />
-            <img
-              src={"https://source.unsplash.com/random/?micro,machine"}
-              alt=""
-              className="w-full h-full object-cover"
-            />
+            <img src={img_4} alt="" className="w-full h-full object-cover" />
           </div>
           <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
@@ -49,11 +52,7 @@ const Home = () => {
         <div className="w-[35%]">
           <div className="relative h-[50%]">
             <div className="bg-black/30 absolute top-0 left-0 w-full h-full" />
-            <img
-              src={"https://source.unsplash.com/random/?micro,solid"}
-              alt=""
-              className="w-full h-full object-cover"
-            />
+            <img src={img_6} alt="" className="w-full h-full object-cover" />
           </div>
           <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
@@ -69,8 +68,8 @@ const Home = () => {
         </div>
         <div className="w-[65%] sm:w-[70%] relative">
           <div className="bg-black/30 absolute top-0 left-0 w-full h-full text-center flex flex-col justify-center items-center gap-4 sm:gap-6">
-            <p className="sm:text-xl font-semibold text-stone-600">Sub-Title</p>
-            <h1 className="sm:text-5xl font-extrabold text-stone-600 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
+            <p className="sm:text-xl font-semibold text-stone-200">Sub-Title</p>
+            <h1 className="sm:text-5xl font-extrabold text-stone-200 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
               - Title -
             </h1>
             <button className="sm:text-2xl font-extrabold text-white sm:w-fit sm:h-fit p-3 bg-emerald-600">
@@ -78,7 +77,7 @@ const Home = () => {
             </button>
           </div>
           <img
-            src={"https://source.unsplash.com/random/400x400/?solid"}
+            src={img_2}
             alt=""
             className="h-[100%] sm:w-full sm:h-screen object-cover"
           />
@@ -89,8 +88,8 @@ const Home = () => {
       <div className="flex sm:h-screen">
         <div className="w-[65%] sm:w-[70%] relative">
           <div className="bg-black/30 absolute top-0 left-0 w-full h-full text-center flex flex-col justify-center items-center gap-4 sm:gap-6">
-            <p className="sm:text-xl font-semibold text-stone-600">Sub-Title</p>
-            <h1 className="sm:text-5xl font-extrabold text-stone-600 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
+            <p className="sm:text-xl font-semibold text-stone-200">Sub-Title</p>
+            <h1 className="sm:text-5xl font-extrabold text-stone-200 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
               - Title -
             </h1>
             <button className="sm:text-2xl font-extrabold text-white sm:w-fit sm:h-fit p-3 bg-emerald-600">
@@ -98,7 +97,7 @@ const Home = () => {
             </button>
           </div>
           <img
-            src={"https://source.unsplash.com/random/400x400/?moon"}
+            src={img_3}
             alt=""
             className="h-[100%] sm:w-full sm:h-screen object-cover"
           />
@@ -106,11 +105,7 @@ const Home = () => {
         <div className="w-[35%]">
           <div className="relative h-[50%]">
             <div className="bg-black/30 absolute top-0 left-0 w-full h-full" />
-            <img
-              src={"https://source.unsplash.com/random/?micro,galaxy"}
-              alt=""
-              className="w-full h-full object-cover"
-            />
+            <img src={img_5} alt="" className="w-full h-full object-cover" />
           </div>
           <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
