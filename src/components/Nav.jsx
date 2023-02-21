@@ -41,12 +41,10 @@ const Nav = () => {
       {/* Hamburger Icon */}
       <div
         onClick={handleNav}
-        className="sm:hidden z-10 absolute bg-slate-800/80 w-full p-3"
+        className="sm:hidden z-10 absolute bg-slate-800/80 p-3 w-full flex justify-between items-center"
       >
-        <FaBars
-          size={20}
-          className="cursor-pointer text-emerald-600 ml-[95%]"
-        />
+        <h1 className="text-lg font-bold text-emerald-600">LOGO</h1>
+        <FaBars size={20} className="cursor-pointer text-emerald-600" />
       </div>
 
       {/* Mobile Menu */}
