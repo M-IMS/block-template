@@ -16,7 +16,7 @@ const Home = () => {
           <div className="bg-black/30 absolute top-0 left-0 w-full h-full text-center flex flex-col justify-center items-center gap-4 sm:gap-6">
             <p className="sm:text-xl font-semibold text-stone-200">Sub-Title</p>
             <h1 className="sm:text-5xl font-extrabold text-stone-200 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
-              - Title -
+              - Title-01 -
             </h1>
             <button className="sm:text-2xl font-extrabold text-white sm:w-fit sm:h-fit p-3 bg-emerald-600">
               DISCOVER MORE
@@ -35,7 +35,7 @@ const Home = () => {
           </div>
           <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
-              - Title -
+              - Title-02 -
             </h1>
             <p className="sm:text-xl font-semibold text-stone-600 opacity-60">
               Sub-Title
@@ -56,7 +56,7 @@ const Home = () => {
           </div>
           <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
-              - Title -
+              - Title-03 -
             </h1>
             <p className="sm:text-xl font-semibold text-stone-600 opacity-60">
               Sub-Title
@@ -70,7 +70,7 @@ const Home = () => {
           <div className="bg-black/30 absolute top-0 left-0 w-full h-full text-center flex flex-col justify-center items-center gap-4 sm:gap-6">
             <p className="sm:text-xl font-semibold text-stone-200">Sub-Title</p>
             <h1 className="sm:text-5xl font-extrabold text-stone-200 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
-              - Title -
+              - Title-04 -
             </h1>
             <button className="sm:text-2xl font-extrabold text-white sm:w-fit sm:h-fit p-3 bg-emerald-600">
               DISCOVER MORE
@@ -90,7 +90,7 @@ const Home = () => {
           <div className="bg-black/30 absolute top-0 left-0 w-full h-full text-center flex flex-col justify-center items-center gap-4 sm:gap-6">
             <p className="sm:text-xl font-semibold text-stone-200">Sub-Title</p>
             <h1 className="sm:text-5xl font-extrabold text-stone-200 border-t-2 border-b-2 border-stone-400 sm:border-stone-600">
-              - Title -
+              - Title-05 -
             </h1>
             <button className="sm:text-2xl font-extrabold text-white sm:w-fit sm:h-fit p-3 bg-emerald-600">
               DISCOVER MORE
@@ -109,7 +109,7 @@ const Home = () => {
           </div>
           <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
-              - Title -
+              - Title-06 -
             </h1>
             <p className="sm:text-xl font-semibold text-stone-600 opacity-60">
               Sub-Title
