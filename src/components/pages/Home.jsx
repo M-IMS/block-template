@@ -9,7 +9,7 @@ import img_6 from "../../assets/img_6.jpg";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="h-screen">
       {/* Top section */}
       <div className="flex sm:h-screen">
         <div className="w-[65%] sm:w-[70%] relative">
@@ -33,14 +33,14 @@ const Home = () => {
             <div className="bg-black/30 absolute top-0 left-0 w-full h-full" />
             <img src={img_4} alt="" className="w-full h-full object-cover" />
           </div>
-          <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
+          <div className="h-[50%] text-center flex flex-col justify-center items-center sm:items-stretch gap-2 sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
               - Title-02 -
             </h1>
             <p className="sm:text-xl font-semibold text-stone-600 opacity-60">
               Sub-Title
             </p>
-            <button className="sm:text-2xl font-extrabold text-white opacity-60 mx-1 sm:w-fit sm:h-fit p-3 sm:ml-[29%] bg-emerald-600">
+            <button className="text-sm sm:text-2xl font-extrabold text-white opacity-60 w-fit h-fit mx-2 p-3 sm:ml-[29%] bg-emerald-600">
               DISCOVER MORE
             </button>
           </div>
@@ -54,14 +54,14 @@ const Home = () => {
             <div className="bg-black/30 absolute top-0 left-0 w-full h-full" />
             <img src={img_6} alt="" className="w-full h-full object-cover" />
           </div>
-          <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
+          <div className="h-[50%] text-center flex flex-col justify-center items-center sm:items-stretch gap-2 sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
               - Title-03 -
             </h1>
             <p className="sm:text-xl font-semibold text-stone-600 opacity-60">
               Sub-Title
             </p>
-            <button className="sm:text-2xl font-extrabold text-white opacity-60 border mx-1 sm:w-fit sm:h-fit p-3 sm:ml-[29%] bg-emerald-600">
+            <button className="text-sm sm:text-2xl font-extrabold text-white opacity-60 w-fit h-fit mx-2 p-3 sm:ml-[29%] bg-emerald-600">
               DISCOVER MORE
             </button>
           </div>
@@ -107,14 +107,14 @@ const Home = () => {
             <div className="bg-black/30 absolute top-0 left-0 w-full h-full" />
             <img src={img_5} alt="" className="w-full h-full object-cover" />
           </div>
-          <div className="h-[50%] text-center flex flex-col justify-center sm:gap-6">
+          <div className="h-[50%] text-center flex flex-col justify-center items-center sm:items-stretch gap-2 sm:gap-6">
             <h1 className="sm:text-5xl font-extrabold text-stone-600 opacity-60">
               - Title-06 -
             </h1>
             <p className="sm:text-xl font-semibold text-stone-600 opacity-60">
               Sub-Title
             </p>
-            <button className="sm:text-2xl font-extrabold text-white opacity-60 border mx-1 sm:w-fit sm:h-fit p-3 sm:ml-[29%] bg-emerald-600">
+            <button className="text-sm sm:text-2xl font-extrabold text-white opacity-60 w-fit h-fit mx-2 p-3 sm:ml-[29%] bg-emerald-600">
               DISCOVER MORE
             </button>
           </div>
