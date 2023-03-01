@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const AboutUs = () => {
+const SupportingIndustries = () => {
   return (
     <div className="h-screen flex flex-col items-center">
       {/* Top Image section */}
@@ -238,7 +238,7 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default SupportingIndustries
