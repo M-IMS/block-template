@@ -1,3 +1,3 @@
-To view demo site click the link below
+## Block-Template
 
-[https://block-template.netlify.app/](https://block-template.netlify.app/)
+[Demo Link](https://block-template.netlify.app/) - `https://block-template.netlify.app/`
